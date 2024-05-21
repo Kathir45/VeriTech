@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,252,239);
+background: linear-gradient(90deg, rgba(0,252,239,1) 0%, rgba(0,134,255,0.9937053215809357) 100%);
+}
+.navbar div a{
+    width: 100vw;
+    font-weight: bold;
+}
+.banner-div .banner{
+    background: url('banner.jpeg');
+    background-size: cover;
+    color: white;
+}
+.members img{
+    width: 200px;
+    
+} 
+.team-section h3, .team-section h4{
+    color: purple;
+    text-align: center;
+    font-weight: bolder;
+}
+.members{
+    margin: 20px 0;
+    margin: 0 auto;
+}
+ 
+.row{
+    margin: 20px 0;
+}
